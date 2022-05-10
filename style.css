@@ -1,0 +1,49 @@
+#canvas{
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: gray;
+}
+
+div > a{
+    border: 3px solid rgb(241, 65, 65);
+    background-color: pink;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(241, 65, 65);
+    color: white;
+}
+
+#del{
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+}
+
+#dep{
+    margin: auto;
+    margin-top: 15px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#replay{
+    display: none;
+}
